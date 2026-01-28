@@ -1,0 +1,320 @@
+[
+  {
+    "id": 1,
+    "phone": "+1 (555) 345-6789",
+    "date": "2025-12-16",
+    "time": "09:42 AM",
+    "duration": "5:23",
+    "status": "Quote Provided",
+    "category": "Screen",
+    "resolution": "AI Resolved",
+    "resolutionColor": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "Thank you for calling UBreakiFix! How can I help you today?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My iPhone 13 screen is cracked. How much will it cost?", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "The screen repair costs $199 including warranty.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 2,
+    "phone": "+1 (555) 987-6543",
+    "date": "2025-12-16",
+    "time": "10:05 AM",
+    "duration": "3:45",
+    "status": "Escalated to technician",
+    "category": "Software",
+    "resolution": "Warm Transfer",
+    "resolutionColor": "text-orange-500 bg-orange-500/10 border-orange-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "How can I assist you today?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My laptop crashes after every update.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "I'll connect you with a technician.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 3,
+    "phone": "+1 (555) 234-5678",
+    "date": "2025-12-16",
+    "time": "10:40 AM",
+    "duration": "4:10",
+    "status": "Appointment Booked",
+    "category": "Battery",
+    "resolution": "Appointment",
+    "resolutionColor": "text-blue-400 bg-blue-500/10 border-blue-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "What issue are you facing?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My phone battery drains very fast.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Your appointment is booked for today.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 4,
+    "phone": "+1 (555) 876-5432",
+    "date": "2025-12-16",
+    "time": "11:15 AM",
+    "duration": "0:45",
+    "status": "Call Dropped",
+    "category": "Unknown",
+    "resolution": "Dropped",
+    "resolutionColor": "text-rose-500 bg-rose-500/10 border-rose-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "Thank you for calling UBreakiFix!", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "Hello? Can you hear m—", "color": "text-blue-400" }
+    ]
+  },
+  {
+    "id": 5,
+    "phone": "+1 (555) 111-2233",
+    "date": "2025-12-16",
+    "time": "11:40 AM",
+    "duration": "6:10",
+    "status": "Quote Provided",
+    "category": "Water Damage",
+    "resolution": "AI Resolved",
+    "resolutionColor": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "How may I help?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My phone fell into water.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Inspection starts at $49.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 6,
+    "phone": "+1 (555) 222-3344",
+    "date": "2025-12-16",
+    "time": "12:10 PM",
+    "duration": "2:58",
+    "status": "Resolved",
+    "category": "Charging Port",
+    "resolution": "AI Resolved",
+    "resolutionColor": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "What's the problem with your device?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My phone won't charge.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "It may just need a cleaning.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 7,
+    "phone": "+1 (555) 333-4455",
+    "date": "2025-12-16",
+    "time": "12:40 PM",
+    "duration": "4:35",
+    "status": "Appointment Booked",
+    "category": "Camera",
+    "resolution": "Appointment",
+    "resolutionColor": "text-blue-400 bg-blue-500/10 border-blue-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "How can I assist?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My camera is blurry.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Let's schedule a repair appointment.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 8,
+    "phone": "+1 (555) 444-5566",
+    "date": "2025-12-16",
+    "time": "01:10 PM",
+    "duration": "3:20",
+    "status": "Quote Provided",
+    "category": "Speaker",
+    "resolution": "AI Resolved",
+    "resolutionColor": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "What issue are you experiencing?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "The sound is very low.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Speaker replacement costs $89.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 9,
+    "phone": "+1 (555) 555-6677",
+    "date": "2025-12-16",
+    "time": "01:40 PM",
+    "duration": "5:00",
+    "status": "Escalated to technician",
+    "category": "Motherboard",
+    "resolution": "Warm Transfer",
+    "resolutionColor": "text-orange-500 bg-orange-500/10 border-orange-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "Tell me what's going on.", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My phone overheats and shuts down.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "I'll transfer you to our technician.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 10,
+    "phone": "+1 (555) 666-7788",
+    "date": "2025-12-16",
+    "time": "02:05 PM",
+    "duration": "2:10",
+    "status": "Resolved",
+    "category": "Network",
+    "resolution": "AI Resolved",
+    "resolutionColor": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "How can I help?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My phone has no signal.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "A network reset should fix this.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 11,
+    "phone": "+1 (555) 777-8899",
+    "date": "2025-12-16",
+    "time": "02:30 PM",
+    "duration": "4:45",
+    "status": "Appointment Booked",
+    "category": "Tablet",
+    "resolution": "Appointment",
+    "resolutionColor": "text-blue-400 bg-blue-500/10 border-blue-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "What device are you calling about?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My iPad screen is flickering.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Your appointment is booked for tomorrow.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 12,
+    "phone": "+1 (555) 888-9900",
+    "date": "2025-12-16",
+    "time": "03:00 PM",
+    "duration": "1:55",
+    "status": "Quote Provided",
+    "category": "Keyboard",
+    "resolution": "AI Resolved",
+    "resolutionColor": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "How may I assist?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "Some keys are not working.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Keyboard replacement costs $129.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 13,
+    "phone": "+1 (555) 999-1010",
+    "date": "2025-12-16",
+    "time": "03:20 PM",
+    "duration": "3:40",
+    "status": "Resolved",
+    "category": "Bluetooth",
+    "resolution": "AI Resolved",
+    "resolutionColor": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "What seems to be the issue?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "Bluetooth won't connect.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Resetting Bluetooth should fix it.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 14,
+    "phone": "+1 (555) 121-2121",
+    "date": "2025-12-16",
+    "time": "03:45 PM",
+    "duration": "2:25",
+    "status": "Escalated to technician",
+    "category": "Software",
+    "resolution": "Warm Transfer",
+    "resolutionColor": "text-orange-500 bg-orange-500/10 border-orange-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "How can I help today?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My phone is stuck in a boot loop.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Transferring to a technician now.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 15,
+    "phone": "+1 (555) 131-3131",
+    "date": "2025-12-16",
+    "time": "04:05 PM",
+    "duration": "4:00",
+    "status": "Appointment Booked",
+    "category": "Laptop",
+    "resolution": "Appointment",
+    "resolutionColor": "text-blue-400 bg-blue-500/10 border-blue-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "What can I help you with?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My laptop screen is black.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Let's book an inspection appointment.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 16,
+    "phone": "+1 (555) 141-4141",
+    "date": "2025-12-16",
+    "time": "04:30 PM",
+    "duration": "2:15",
+    "status": "Resolved",
+    "category": "Storage",
+    "resolution": "AI Resolved",
+    "resolutionColor": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "How can I assist?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My storage is full.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Clearing cache will help.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 17,
+    "phone": "+1 (555) 151-5151",
+    "date": "2025-12-16",
+    "time": "04:55 PM",
+    "duration": "3:10",
+    "status": "Quote Provided",
+    "category": "Back Glass",
+    "resolution": "AI Resolved",
+    "resolutionColor": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "What's the issue?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "The back glass is shattered.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Repair cost is $149.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 18,
+    "phone": "+1 (555) 161-6161",
+    "date": "2025-12-16",
+    "time": "05:20 PM",
+    "duration": "1:40",
+    "status": "Call Dropped",
+    "category": "Unknown",
+    "resolution": "Dropped",
+    "resolutionColor": "text-rose-500 bg-rose-500/10 border-rose-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "Hello! How can I help?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "Hi I was call—", "color": "text-blue-400" }
+    ]
+  },
+  {
+    "id": 19,
+    "phone": "+1 (555) 171-7171",
+    "date": "2025-12-16",
+    "time": "05:45 PM",
+    "duration": "4:50",
+    "status": "Resolved",
+    "category": "WiFi",
+    "resolution": "AI Resolved",
+    "resolutionColor": "text-emerald-500 bg-emerald-500/10 border-emerald-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "What seems to be wrong?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "WiFi keeps disconnecting.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Resetting network settings should fix it.", "color": "text-emerald-500" }
+    ]
+  },
+  {
+    "id": 20,
+    "phone": "+1 (555) 181-8181",
+    "date": "2025-12-16",
+    "time": "06:10 PM",
+    "duration": "3:35",
+    "status": "Appointment Booked",
+    "category": "Console",
+    "resolution": "Appointment",
+    "resolutionColor": "text-blue-400 bg-blue-500/10 border-blue-500/20",
+    "transcript": [
+      { "speaker": "AI Assistant", "text": "How can I help today?", "color": "text-emerald-500" },
+      { "speaker": "Customer", "text": "My PlayStation won't turn on.", "color": "text-blue-400" },
+      { "speaker": "AI Assistant", "text": "Appointment scheduled for inspection.", "color": "text-emerald-500" }
+    ]
+  }
+]

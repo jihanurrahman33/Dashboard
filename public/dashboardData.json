@@ -1,0 +1,76 @@
+{
+  "metrics": [
+    {
+      "title": "Total Call Today",
+      "value": "127",
+      "rate": "+12%",
+      "iconType": "LuPhone",
+      "iconBg": "bg-gradient-to-tl from-blue-500 to-blue-400"
+    },
+    {
+      "title": "Ai-Handled Calls",
+      "value": "98",
+      "rate": "+77%",
+      "iconType": "FaRobot",
+      "iconBg": "bg-gradient-to-tl from-purple-500 to-pink-500"
+    },
+    {
+      "title": "Warm Transfer",
+      "value": "23",
+      "rate": "+18%",
+      "iconType": "BiTransfer",
+      "iconBg": "bg-gradient-to-tl from-red-500 to-orange-600"
+    },
+    {
+      "title": "Appointments Booked",
+      "value": "34",
+      "rate": "+8%",
+      "iconType": "SlCalender",
+      "iconBg": "bg-gradient-to-tl from-green-500 to-green-400"
+    },
+    {
+      "title": "Missed/Failed Calls",
+      "value": "6",
+      "rate": "-3%",
+      "iconType": "MdOutlineCancel",
+      "iconBg": "bg-gradient-to-tl from-red-500 to-pink-500"
+    },
+    {
+      "title": "Avg Call Duration",
+      "value": "3:42",
+      "rate": "+15%",
+      "iconType": "RiTimer2Line",
+      "iconBg": "bg-gradient-to-br from-blue-400 to-indigo-500"
+    }
+  ],
+  "topRepairs": [
+    {
+      "name": "Screen Repair",
+      "count": 156,
+      "total": 200,
+      "width": "80%"
+    },
+    {
+      "name": "Battery Replacement",
+      "count": 89,
+      "total": 200,
+      "width": "45%"
+    },
+    {
+      "name": "Back Glass Repair",
+      "count": 67,
+      "total": 200,
+      "width": "35%"
+    },
+    {
+      "name": "Software Issues",
+      "count": 45,
+      "total": 200,
+      "width": "25%"
+    }
+  ],
+  "callTrends": {
+    "total": 472,
+    "period": "This Week"
+  }
+}
