@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import logoImg from "/logo.svg";
-import { NavLink, Outlet, useLocation } from "react-router";
+import { NavLink, Outlet, useLocation, useMatches } from "react-router";
 import { RiHome5Fill } from "react-icons/ri";
 import { IoCallOutline } from "react-icons/io5";
 import { SlCalender } from "react-icons/sl";
@@ -9,6 +9,16 @@ import { GoGear } from "react-icons/go";
 import { RiLogoutBoxLine } from "react-icons/ri";
 
 const DashboardLayout = () => {
+  const matches = useMatches();
+
+  useEffect(() => {
+    const currentRoute = matches[matches.length - 1];
+    const title = currentRoute?.handle?.title;
+
+    if (title) {
+      document.title = title;
+    }
+  }, [matches]);
   const location = useLocation();
   const navTitle =
     location.pathname === "/"
