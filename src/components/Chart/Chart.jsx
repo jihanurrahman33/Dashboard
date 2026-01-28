@@ -35,10 +35,10 @@ export default function CallTrendsChart() {
           <XAxis
             dataKey="day"
             stroke="#94a3b8"
-            tickLine={false}
-            axisLine={false}
+            tickLine={true}
+            axisLine={true}
           />
-          <YAxis stroke="#94a3b8" tickLine={false} axisLine={false} />
+          <YAxis stroke="#94a3b8" tickLine={true} axisLine={true} />
 
           <Tooltip
             contentStyle={{
