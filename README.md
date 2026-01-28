@@ -1,3 +1,60 @@
+# Dashboard Assessment
+
+Simple React + Vite dashboard used for the assessment exercise. This project demonstrates a small UI for visualizing call logs, appointments, and usage statistics.
+
+**Quick Summary**
+- **Purpose:** Front-end assessment dashboard for displaying metrics, charts, and recent activity.
+- **Stack:** React, Vite, Recharts, simple state stores (hooks/stores), CSS for styling.
+
+**Features**
+- Interactive charts for call trends.
+- Stat cards and recent activity feed.
+- Pages for Appointments and Call Logs with local JSON data.
+
+**Local Setup**
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Run the dev server:
+
+```bash
+npm run dev
+```
+
+3. Build for production:
+
+```bash
+npm run build
+```
+
+4. Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+**Project Structure (key files)**
+- **Source:** [src/](src/)
+  - **Pages:** [src/pages](src/pages) — Appointments, CallLogs, DashboardOverview, Settings.
+  - **Layouts:** [src/layouts/DashboardLayout.jsx](src/layouts/DashboardLayout.jsx)
+  - **Components:** [src/components](src/components) — Chart, StatCard, CallLogCard.
+  - **Stores:** [src/stores](src/stores) — `useAppointmentStore.js`, `useCallLogStore.js`.
+- **Public data:** [public/](public/) — `dashboardData.json`, `callLogsData.json`, `appointmentsData.json`.
+
+**Notes**
+- Charts are implemented using Recharts (installed as a dependency).
+- The app uses local JSON under `public/` to simulate backend data for the assessment.
+
+**Next steps / Suggestions**
+- Add tests for key components.
+- Replace local JSON with a mock API or real backend when available.
+- Improve accessibility and add keyboard navigation for interactive elements.
+
+**License**
+This repository is provided for assessment purposes.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
